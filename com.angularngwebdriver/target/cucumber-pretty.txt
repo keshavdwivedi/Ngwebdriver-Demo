@@ -1,0 +1,11 @@
+Feature: To test the functionality of IMR05 program
+
+  @selectdistrict20 @t
+  Scenario: To test the stepwise process of program IMR05 [90m# src/test/resources/Features/IMR05.feature:4[0m
+    [32mWhen [0m[32mnavigate by program menu[0m                         [90m# IMR05StepDefinition.navigate_by_program_menu()[0m
+    [32mAnd [0m[32mEnter Item number[0m                                 [90m# IMR05StepDefinition.enter_Item_number()[0m
+    [32mThen [0m[32muser Update button[0m                               [90m# IMR05StepDefinition.user_Update_button()[0m
+    [32mThen [0m[32mEnter Item subclass[0m                              [90m# IMR05StepDefinition.enter_Item_subclass()[0m
+    [32mThen [0m[32mPress Enter=update button[0m                        [90m# IMR05StepDefinition.press_Enter_update_button()[0m
+    [32mThen [0m[32mpress End button[0m                                 [90m# IMR05StepDefinition.press_End_button()[0m
+To test the stepwise process of program IMR05

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">navigate by program menu (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter Item number (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user Update button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Enter Item subclass (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Press Enter=update button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">press End button (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15349" started-at="2018-02-16T11:44:51Z" finished-at="2018-02-16T11:45:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.MainRunner@43bd930a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15349" started-at="2018-02-16T11:44:51Z" finished-at="2018-02-16T11:45:06Z">
+      <class name="runner.MainRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.MainRunner@43bd930a]" name="setUpClass" is-config="true" duration-ms="203" started-at="2018-02-16T17:14:51Z" finished-at="2018-02-16T17:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.MainRunner@43bd930a]" name="runScenario" duration-ms="15052" started-at="2018-02-16T17:14:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-02-16T17:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test the stepwise process of program IMR05"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the functionality of IMR05 program"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">navigate by program menu (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter Item number (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user Update button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Enter Item subclass (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Press Enter=update button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">press End button (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.MainRunner@43bd930a]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2018-02-16T17:15:06Z" finished-at="2018-02-16T17:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.MainRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
